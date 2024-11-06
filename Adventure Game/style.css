@@ -1,0 +1,42 @@
+/* Basic body styling for a dark, spooky background */
+body {
+	font-family: "Courier New", Courier, monospace; /* Adds an old-fashioned, spooky font */
+	background-color: #1b1b2f; /* Dark background color */
+	color: #d4d4dc; /* Light gray text color */
+	text-align: center; /* Center-aligns text */
+	padding: 20px;
+	margin: 0;
+}
+
+/* Styling for headings to make them stand out */
+h1 {
+	color: #e94560; /* Dark red color */
+	font-size: 2.5em; /* Makes the heading larger */
+	text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5); /* Adds a shadow for a spooky effect */
+}
+
+/* Link styling for spooky choices */
+ul li a {
+	display: inline-block;
+	margin: 10px;
+	padding: 10px 20px;
+	color: #d4d4dc; /* Text color for links */
+	text-decoration: none;
+	font-weight: bold;
+	background-color: #162447; /* Dark blue background for links */
+	border-radius: 5px;
+	transition: background-color 0.3s; /* Smooth color change on hover */
+}
+
+ul li a:hover {
+	background-color: #1f4068; /* Slightly lighter blue on hover */
+	color: #e94560; /* Changes text to red on hover */
+}
+
+/* Spooky text class for specific text elements */
+.spooky {
+	color: #e94560; /* Dark red color */
+	font-style: italic; /* Adds an italics style */
+	font-weight: bold; /* Bold text */
+	text-shadow: 2px 2px 8px rgba(233, 69, 96, 0.5); /* Adds a red shadow for spooky effect */
+}
